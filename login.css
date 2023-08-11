@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat&family=Paytone+One&family=Poppins);
+
+body {
+  font-family: "poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f6f8fd;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .form-login{
+    background-color: #fff;
+    padding: 40px 30px ;
+    border-radius: 20px;
+}
+
+
+body .form-login h3{
+    text-align: center;
+}
+
+body .form-login input{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #d0d0d0;
+    border: none;
+    font-weight: 300;
+}
+
+body .form-login p{
+    text-align: right;
+    margin-top: -8;
+    font-size: 13px;
+}
+
+body .form-login p .link{
+    text-decoration: none;
+}
+
+body .form-login .btn-login {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #2749f4;
+    color: #f7f2f2;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+body .form-login .btn-login:hover{
+    background-color:#0427d1 ;
+    transition: 0.2s ease-in-out;
+    color:white;
+    letter-spacing: 0.25em;
+}
+
+
+body .form-login .btn-regis{
+    margin-top: 18px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #e5e9f2;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .btn-regis:hover{
+    background-color: #0abe19;
+    color:#fff;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 0.25em;
+}
+
+body .form-login .btn-google{
+    margin-top: 18px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #232323;
+    color: #fefefe;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+body .form-login .btn-google:hover{
+    margin-top: 18px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #010101;
+    color: #fefefe;
+    font-weight: 700;
+    cursor: pointer;
+}
